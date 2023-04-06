@@ -1,0 +1,37 @@
+{
+  "milkshakes": [
+    {
+      "name": "Vanilla Milkshake",
+      "description": "A classic milkshake made with vanilla ice cream, milk, and whipped cream.",
+      "image": "https://bakingmischief.com/wp-content/uploads/2020/03/vanilla-milkshake-photo.jpg"
+    },
+    {
+      "name": "Chocolate Milkshake",
+      "description": "A rich and chocolatey milkshake made with chocolate ice cream, milk, and whipped cream.",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/delish-220524-chocolate-milkshake-001-ab-web-1654180529.jpg?crop=0.647xw:0.972xh;0.177xw,0.0123xh&resize=1200:*"
+    },
+    {
+      "name": "Strawberry Milkshake",
+      "description": "A fruity milkshake made with strawberry ice cream, fresh strawberries, milk, and whipped cream.",
+      "image": "https://www.sharmispassions.com/wp-content/uploads/2012/02/StrawberryMilkshake4.jpg"
+    },
+    {
+      "name": "Banana Milkshake",
+      "description": "An easy banana shake you can make in minutes, with creamy vanilla ice cream, a pinch of cinnamon and a swizzle of whipped cream"
+      ,
+      "image": "https://www.thespruceeats.com/thmb/67fUhzexgkuAZZkNPCzN_L54Vn8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/banana-smoothie-recipes-759606-hero-01-d2abaa79f3204030a0ec0a8940456acc.jpg"
+    },
+    {
+      "name": "Strawberry Milk Tea",
+      "description": "Strawberry milk tea is the fruity, creamy, and refreshing popular boba drink that you need .",
+      "image": "https://theflavorbells.com/wp-content/uploads/2022/05/strawberry-milk-tea-recipe.jpg"
+    },
+    {
+      "name": "Mango Bubble Milk Tea",
+      "description": "This fruity mango milk tea recipe that is the perfect bubble tea drink to have anytime",
+      "image": "https://thelittlestcrumb.com/wp-content/uploads/mango-milk-tea-featured-image-1.jpg"
+    }
+    
+  
+  ]
+}
