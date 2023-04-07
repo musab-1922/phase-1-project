@@ -6,30 +6,45 @@
   </head>
   <body>
     <h1>Milkshakes</h1>
-    <div class="container"></div>
-    <div class="review-form">
-      <h2>Leave a Review</h2>
-      <form>
-        <label for="name">Name:</label>
-        
-        
-        <input type="text" id="name" name="name" required>
-
-        <label for="rating">Rating:</label>
-        <select id="rating" name="rating" required>
-          <option value="">Select a rating</option>
-          <option value="5">5 stars</option>
-          <option value="4">4 stars</option>
-          <option value="3">3 stars</option>
-          <option value="2">2 stars</option>
-          <option value="1">1 star</option>
-        </select>
-
-        <label for="comment">Comment:</label>
-        <textarea id="comment" name="comment" rows="4" required></textarea>
-
-        <button type="submit">Submit</button>
-      </form>
+    <div class="container">
+      <button type="button" class="order-button">Order Now</button>
+    </div>
+    <div class="forms-container">
+      <div class="order-form">
+        <h2>Select a drink:</h2>
+        <form>
+          <input type="radio" id="chocolate" name="drink" value="chocolate" required>
+          <label for="chocolate">Chocolate</label><br>
+          <input type="radio" id="vanilla" name="drink" value="vanilla">
+          <label for="vanilla">Vanilla</label><br>
+          <input type="radio" id="strawberry" name="drink" value="strawberry">
+          <label for="strawberry">Strawberry</label><br>
+          <input type="radio" id="banana" name="drink" value="banana">
+          <label for="banana">Banana</label><br>
+          <input type="radio" id="caramel" name="drink" value="caramel">
+          <label for="caramel">Caramel</label><br><br>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div class="review-form">
+        <h2>Leave a Review</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="rating">Rating:</label>
+          <select id="rating" name="rating" required>
+            <option value="">Select a rating</option>
+            <option value="5">5 stars</option>
+            <option value="4">4 stars</option>
+            <option value="3">3 stars</option>
+            <option value="2">2 stars</option>
+            <option value="1">1 star</option>
+          </select>
+          <label for="comment">Comment:</label>
+          <textarea id="comment" name="comment" rows="4" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     </div>
     <script src="index.js"></script>
   </body>
